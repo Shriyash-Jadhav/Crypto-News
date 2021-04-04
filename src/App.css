@@ -1,0 +1,40 @@
+.row {
+  background: #000;
+  color: white;
+  box-shadow: 0.1rem 0.125rem 0.5rem 0.5rem rgb(255, 230, 7);
+  border-radius: 30px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 50px 0;
+}
+th {
+  padding: 10px 0;
+}
+
+.text-center .tag {
+  justify-content: center;
+  display: flex;
+}
+.text-center .head {
+  color: red;
+  justify-content: center;
+  display: flex;
+}
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+  justify-content: center;
+  display: flex;
+  font-family: "Work Sans", sans-serif;
+}
+@media screen and (max-width: 780px) {
+  body {
+    overflow-x: visible;
+  }
+  table {
+    display: block;
+  }
+}
